@@ -15,3 +15,5 @@ En este proyecto construí un dashboard para visualizar los indicadores de rotac
 
 📊 [Ver el dashboard](https://ar.pinterest.com/isabellagarzi/fondos-random/)
 
+<a href="https://ar.pinterest.com/isabellagarzi/fondos-random/" target="_blank">Power BI</a>
+
