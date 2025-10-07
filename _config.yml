@@ -1,6 +1,6 @@
 title: "Mi Blog de Análisis de Datos"
 description: "Proyectos, visualizaciones y aprendizajes sobre análisis de datos"
 author: "Christian Rivera"
-theme: jekyll-theme-cayman
+theme: null
 github:
   is_project_page: true
