@@ -13,5 +13,5 @@ En este proyecto construí un dashboard para visualizar los indicadores de rotac
 - Modelado de datos desde nómina
 - Creación de visualizaciones dinámicas
 
-📊 [Ver el dashboard]((https://ar.pinterest.com/isabellagarzi/fondos-random/))
+📊 [Ver el dashboard](https://ar.pinterest.com/isabellagarzi/fondos-random/)
 
