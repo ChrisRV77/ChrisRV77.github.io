@@ -6,6 +6,7 @@ body {
 }
 
 header {
+  display: flex;
   justify-content: flex-start; /* izquierda */
   align-items: center;         /* centro vertical */
   background-color: #002b5b;
