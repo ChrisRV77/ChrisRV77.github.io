@@ -8,7 +8,7 @@ body {
 header {
   display: flex;                 /* activa Flexbox */
   justify-content: space-between; /* título a la izquierda, nav a la derecha */
-  align-items: center;           /* centra verticalmente */
+  align-items: flex-end;           /* centra verticalmente */
   padding: 1rem 2rem;
   background-color: #002b5b;
   color: white;
