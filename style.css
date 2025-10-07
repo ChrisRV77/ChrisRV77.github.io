@@ -6,6 +6,7 @@ body {
 }
 
 header {
+  position: sticky;
   display: flex;                 /* activa Flexbox */
   justify-content: space-between; /* título a la izquierda, nav a la derecha */
   align-items: baseline;           /* centra verticalmente */
