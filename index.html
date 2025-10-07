@@ -26,8 +26,15 @@ title: "Inicio"
 <main>
   <h2>Entradas recientes</h2>
   <div class="posts-grid">
-    <!-- Aquí se insertarán automáticamente los posts -->
-  </div>
+  {% for post in site.posts %}
+    <div class="post-card">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <small>Publicado: {{ post.date | date: "%d %B %Y" }}</small>
+    </div>
+  {% endfor %}
+</div>
+
 </main>
 
 <footer>
