@@ -6,28 +6,29 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: flex-start; /* izquierda */
-  align-items: center;         /* centro vertical */
+  display: flex;                 /* activa Flexbox */
+  justify-content: space-between; /* título a la izquierda, nav a la derecha */
+  align-items: center;           /* centra verticalmente */
+  padding: 1rem 2rem;
   background-color: #002b5b;
   color: white;
-  padding: 1rem 2rem;
 }
 
 header h1 {
-  margin: 0;
-}
-
-header nav {
-  margin-left: auto; /* empuja el nav hacia la derecha */
+  margin: 0;                     /* elimina margen por defecto */
+  font-size: 1.8rem;
 }
 
 header nav a {
-  margin-left: 1rem;
+  margin-left: 1rem;             /* separación entre enlaces */
   color: white;
   text-decoration: none;
+  font-weight: 500;
 }
 
+header nav a:hover {
+  text-decoration: underline;    /* efecto hover */
+}
 
 nav a {
   color: #fff;
