@@ -6,11 +6,28 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: flex-start; /* izquierda */
+  align-items: center;         /* centro vertical */
   background-color: #002b5b;
   color: white;
-  padding: 1.5rem;
-  text-align: left;
+  padding: 1rem 2rem;
 }
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  margin-left: auto; /* empuja el nav hacia la derecha */
+}
+
+header nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
 
 nav a {
   color: #fff;
