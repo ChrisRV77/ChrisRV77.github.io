@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Mi nuevo post"
+date: 2025-10-07
+excerpt: "Resumen breve del nuevo post"
+---
 
 # Dashboard de rotación de personal en Power BI
 
