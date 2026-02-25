@@ -22,6 +22,30 @@ body {
     padding: 20px;
 }
 
+/* Contenedor principal hero */
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* Texto */
+.hero-text {
+    max-width: 500px;
+}
+
+/* Imagen */
+.hero-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
 .container h1 {
     font-size: 3rem;
     margin-bottom: 10px;
@@ -133,5 +157,15 @@ body {
         height: auto;
         padding: 80px 20px;
     }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 180px;
+        height: 180px;
+    
 
 }
