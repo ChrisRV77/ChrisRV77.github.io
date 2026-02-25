@@ -64,7 +64,9 @@ h2 {
 .contact a {
     display: block;
     margin: 6px 0;
-    color: gray;
-    text-decoration: none;
+    color: #000000;
     font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-text-fill-color: #000000;
 }
